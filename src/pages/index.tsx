@@ -19,6 +19,9 @@ const Home = (): JSX.Element => {
           <Link href="/next-api" passHref>
             <a className={styles.card}>CSR(Next Api) Page</a>
           </Link>
+          <Link href="/auth" passHref>
+            <a className={styles.card}>Authentication Page</a>
+          </Link>
         </div>
       </div>
     </Layout>
